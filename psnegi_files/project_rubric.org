@@ -1,0 +1,38 @@
+* Project
+
+In tools 1 we are concerned with data cleaning and exploratory analysis.
+Please select a project having enough scope for following activities.
+
+You will create a github repository for your project and *tag* it with
+label for presentation and final report. Github repository must have .ipynb notebook file and associated code.
+One should be able to run your project with [[https://mybinder.org/][binder]] link.(In fact we are running most of our notebooks in the class via binder) 
+
+Final report, should read like a data driven story/scientific study (data science). This is really important if you want to publish your story as 
+blog in the web or share with stakeholders. Scientific publications have their own style and content requirements.
+
+Use code cell and markdown cell to carry out your analysis.
+Please write report using following format sections guidelines. You can create more sections if it is more natural to do so depending on your project.
+Please write each section like a report and must address the points mentioned in following rubric. Try to make your report more enjoyable to read.
+
+** Proper tagging of repository for presentation and final report as per deadlines(.5=.25+.25 points)
+** Dataset and motivation slide (1 points)
+  How/why  dataset was collected and describe the meta data of your dataset.
+
+** Actual task definition/Research Question (2 points) 
+  What real-world problem you trying to solve. *What is input and output of your analysis.*
+
+** Literature review (2 points)
+  What other work has been done in this area and how is your work novel
+  compared to others.
+** Quality of cleaning (6 points, 2 points each)
+ - Data Cleaning and type conversion activity. Anything unusual you faced during this activity. Please share.
+ - What you did about missing values and why?
+ - Data summary statistics and interpretation.
+
+** Visualization (8 points, 2 points each)
+  - Data Visualization activity(box plot, bar plot, violin plot, pairplot to see relationship and distribution etc).
+  - Describe any thing you find in the data after each visualization.
+  - What data  visualization help you understanding data distribution.
+  - What did you do about possible outlier as per data distribution visualization. (Did you confirm it with your client if it is actually an outlier or put a disclosure statement in notebook if you decided to remove it.)
+
+
